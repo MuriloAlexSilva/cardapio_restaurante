@@ -1,0 +1,28 @@
+[
+    {
+        "titulo": "Sushi",
+        "foto": "https://cdn.pixabay.com/photo/2016/11/25/16/08/sushi-1858696_960_720.jpg",
+        "porcoes": "5",
+        "tempodePreparo": "1h23minutos",
+        "ingredientes": "arroz, salmão",
+        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+    },
+
+    {
+        "titulo": "Salmão",
+        "foto": "https://cdn.pixabay.com/photo/2015/04/08/13/14/food-712666_960_720.jpg",
+        "porcoes": "5",
+        "tempodePreparo": "1h23minutos",
+        "ingredientes": "arroz, salmão",
+        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+    },
+
+    {
+        "titulo": "Sashimi",
+        "foto": "https://cdn.pixabay.com/photo/2014/06/21/02/22/sushi-373585_960_720.jpg",
+        "porcoes": "5",
+        "tempodePreparo": "1h23minutos",
+        "ingredientes": "arroz, salmão",
+        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+    }
+]
