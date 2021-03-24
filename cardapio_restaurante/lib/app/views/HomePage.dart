@@ -28,8 +28,7 @@ class _HomePageState extends State<HomePage> {
               itemBuilder: (BuildContext context, int index) {
                 Receita receita = Receita.fromJson(receitas[index]);
                 return CardCustom(
-                  image: receita.foto,
-                  name: receita.titulo,
+                  receita: receita,
                 );
               },
               itemCount: receitas == null ? 0 : receitas.length,

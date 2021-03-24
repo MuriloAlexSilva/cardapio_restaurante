@@ -2,30 +2,33 @@
     {
         "titulo": "Sushi",
         "foto": "https://cdn.pixabay.com/photo/2016/11/25/16/08/sushi-1858696_960_720.jpg",
-        "porcoes": "5",
-        "tempodePreparo": "1h23minutos",
+        "porcoes": "8",
+        "tempodePreparo": "120 minutos",
         "ingredientes": "arroz, salmão",
-        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+        "modoDePreparo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+   
    
     },
 
     {
         "titulo": "Salmão",
         "foto": "https://cdn.pixabay.com/photo/2015/04/08/13/14/food-712666_960_720.jpg",
-        "porcoes": "5",
-        "tempodePreparo": "1h23minutos",
-        "ingredientes": "arroz, salmão",
-        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+        "porcoes": "4",
+        "tempodePreparo": "40 minutos",
+        "ingredientes": "Salmão",
+        "modoDePreparo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+   
       
     },
 
     {
         "titulo": "Sashimi",
         "foto": "https://cdn.pixabay.com/photo/2014/06/21/02/22/sushi-373585_960_720.jpg",
-        "porcoes": "5",
-        "tempodePreparo": "1h23minutos",
+        "porcoes": "20",
+        "tempodePreparo": "60 minutos",
         "ingredientes": "arroz, salmão",
-        "modoDePreparo": "asdkfjas dfasd fasjdfnas df"
+        "modoDePreparo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+   
       
     }
 ]

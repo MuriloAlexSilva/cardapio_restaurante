@@ -1,19 +1,20 @@
+import 'package:cardapio_restaurante/app/models/receita.dart';
+import 'package:cardapio_restaurante/app/views/detalhes.dart';
 import 'package:flutter/material.dart';
 
 class CardCustom extends StatelessWidget {
-  final String image;
-  final String name;
-  final String rota;
+  final Receita receita;
 
-  const CardCustom({Key key, this.image, this.name, this.rota})
-      : super(key: key);
+  const CardCustom({Key key, this.receita}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-      padding: EdgeInsets.all(8.0),
+    return TextButton(
       onPressed: () {
-        Navigator.of(context).pushNamed(rota);
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => Detalhes(receita: receita)));
       },
       child: SizedBox(
         height: 250,
@@ -24,7 +25,7 @@ class CardCustom extends StatelessWidget {
                 alignment: Alignment.bottomLeft,
                 children: [
                   Image.network(
-                    image,
+                    receita.foto,
                     fit: BoxFit.fill, //Para preencher todo o card
                     height: 242,
                     width: 450,
@@ -46,7 +47,7 @@ class CardCustom extends StatelessWidget {
                     bottom: 10,
                     left: 10,
                     child: Text(
-                      name,
+                      receita.titulo,
                       style: TextStyle(
                           color: Colors.white,
                           fontStyle: FontStyle.italic,

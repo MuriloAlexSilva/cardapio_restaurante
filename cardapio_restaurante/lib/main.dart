@@ -1,6 +1,6 @@
-import 'package:cardapio_restaurante/app/views/detalhes.dart';
 import 'package:flutter/material.dart';
 
+import 'app/models/receita.dart';
 import 'app/views/HomePage.dart';
 
 void main() {
@@ -8,6 +8,10 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  final Receita receita;
+
+  const MyApp({Key key, this.receita}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,11 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.deepOrange,
           backgroundColor: Colors.deepOrange[300]),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomePage(),
-        '/detalhes': (context) => Detalhes(),
-      },
+      home: HomePage(),
     );
   }
 }
