@@ -3,14 +3,18 @@ import 'package:flutter/material.dart';
 class CardCustom extends StatelessWidget {
   final String image;
   final String name;
+  final String rota;
 
-  const CardCustom({Key key, this.image, this.name}) : super(key: key);
+  const CardCustom({Key key, this.image, this.name, this.rota})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return FlatButton(
       padding: EdgeInsets.all(8.0),
-      onPressed: () {},
+      onPressed: () {
+        Navigator.of(context).pushNamed(rota);
+      },
       child: SizedBox(
         height: 250,
         child: Card(

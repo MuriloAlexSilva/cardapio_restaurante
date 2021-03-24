@@ -6,13 +6,14 @@ class Receita {
   String ingredientes;
   String modoDePreparo;
 
-  Receita(
-      {this.titulo,
-      this.foto,
-      this.porcoes,
-      this.tempodePreparo,
-      this.ingredientes,
-      this.modoDePreparo});
+  Receita({
+    this.titulo,
+    this.foto,
+    this.porcoes,
+    this.tempodePreparo,
+    this.ingredientes,
+    this.modoDePreparo,
+  });
 
   Receita.fromJson(Map<String, dynamic> json) {
     titulo = json['titulo'];
@@ -31,6 +32,7 @@ class Receita {
     data['tempodePreparo'] = this.tempodePreparo;
     data['ingredientes'] = this.ingredientes;
     data['modoDePreparo'] = this.modoDePreparo;
+
     return data;
   }
 }
